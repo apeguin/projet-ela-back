@@ -15,8 +15,8 @@ The project was carried out by a team made up of:
 
 * **Product Owner (and Dev Front)** : Laure Lamande [github](https://github.com/HaCoBa) - [linkedin](https://www.linkedin.com/in/laure-lamande/)
 * **Lead Dev Front** : Dimitri Subrini [github](https://github.com/dsubrini) - [linkedin](https://www.linkedin.com/in/dimitri-subrini-b48848156/)
-* **Lead Dev Back** : Adrien [github](https://github.com/apeguin) - [linkedin](https://www.linkedin.com/in/adrienpeguin/)
-* **Git Master** : Adrien [github](https://github.com/apeguin) - [linkedin](https://www.linkedin.com/in/adrienpeguin/)
+* **Lead Dev Back** : Adrien Peguin [github](https://github.com/apeguin) - [linkedin](https://www.linkedin.com/in/adrienpeguin/)
+* **Git Master** : Adrien Peguin [github](https://github.com/apeguin) - [linkedin](https://www.linkedin.com/in/adrienpeguin/)
 * **Scrum Master (and Dev Back)**  : Loïse Geolier [github](https://github.com/Loise971) - [linkedin](https://www.linkedin.com/in/lo%C3%AFse-geolier/)
 
 ## Technologies (backend)
