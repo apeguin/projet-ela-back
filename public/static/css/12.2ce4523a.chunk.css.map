@@ -1,0 +1,1 @@
+{"version":3,"sources":["stylesAdminPictures.scss"],"names":[],"mappings":"AAAA,gBACE,iBAAkB,CAClB,cAAe","file":"12.2ce4523a.chunk.css","sourcesContent":[".admin-pictures {\n  text-align: center;\n  min-width: 80vw;\n}\n"]}

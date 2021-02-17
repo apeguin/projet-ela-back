@@ -1,0 +1,1 @@
+{"version":3,"sources":["stylesAdminUsers.scss"],"names":[],"mappings":"AAAA,aACE,iBAAkB,CAClB,cAAe","file":"13.cfcb1386.chunk.css","sourcesContent":[".admin-users {\n  text-align: center;\n  min-width: 80vw;\n}\n"]}

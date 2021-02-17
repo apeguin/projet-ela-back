@@ -1,0 +1,1 @@
+{"version":3,"sources":["stylesAdminComments.scss"],"names":[],"mappings":"AAAA,gBACE,iBAAkB,CAClB,cAAe","file":"9.5b5ad286.chunk.css","sourcesContent":[".admin-comments {\n  text-align: center;\n  min-width: 80vw;\n}\n"]}

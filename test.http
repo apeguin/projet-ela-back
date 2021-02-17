@@ -1,0 +1,220 @@
+#####LIVRES#####
+
+###Récupérer la liste des livres
+GET http://localhost:3000/books
+
+###récupérer le détail d'un livre
+//GET http://localhost:3000/books/1
+
+###récupérer la liste des livres par collection
+GET http://localhost:3000/books/collection/2
+
+
+####GOODIES####
+
+###récupérer la liste des goodies
+GET http://localhost:3000/goodies
+
+###récupérer le détail d'un goodies
+//GET http://localhost:3000/goodies/1
+
+###recupérer la liste des goodies par type
+GET http://localhost:3000/goodies/type/4
+
+####CREW####
+
+###récupérer la liste du crew
+GET http://localhost:3000/crew
+
+
+####ILLUSTRATION####
+
+###récupérer la liste des illustrations
+GET http://localhost:3000/gallery
+
+###récupérer la liste des illustrations par utilisateur
+GET http://localhost:3000/gallery/2
+
+###détail d'une illustration
+GET http://localhost:3000/gallery/illustration/2
+
+###ajout/modif de l'illustration
+PUT http://localhost:3000/admin/gallery/2
+Content-Type: application/json
+
+{
+    "title": "pierre",
+    "picture_file": "icon-pierre.jpg",
+    "id_user": 2
+
+}
+
+####EVENEMENT###
+
+####récupérer tous les évènements
+GET http://localhost:3000/events
+
+####récupérer un evenement
+GET http://localhost:3000/events/1
+
+
+###ajout/modif évènement
+PUT http://localhost:3000/admin/events/3
+Content-Type: application/json
+
+{
+    "name": "bonjour",
+    "location": "paris",
+    "picture_file": "politesse.gif",
+    "start_date": "2020-10-03",
+    "end_date":"2020-10-03"
+}
+
+
+
+
+
+### TOUS LES PRODUITS####
+
+###récupérer la liste de touus les produits
+GET http://localhost:3000/products
+
+### détail d'un produit
+GET http://localhost:3000/products/11
+
+### Delete d'un produit
+DELETE http://localhost:3000/admin/product/10
+
+
+
+###Joi pour un produit
+PUT http://localhost:3000/admin/products
+Content-Type: application/json
+
+
+{
+   "name": "baloo",
+    "id_edition": "4",
+   "synopsys": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc gravida ullamcorper ante, et mattis est. Ut orci purus, eleifend at nulla non, bibendum lobortis tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut nec turpis tincidunt, efficitur elio ",
+   "price": "2.29",
+    "copyright_photo": "philippe",
+    "cover_designer": "norbert",
+    "release_date": "2020-10-1",
+    "isbn": "55415ff",
+   "size": "10 cm x 10 cm",
+    "pages": "50",
+    "copyright": "gfdsgfz",
+    "ean": "hvhfc2654",
+    "stock_quantity": "12",
+    "id_type": "4",
+    "id_collection": "4",
+    "url_kindle": "https://kindle.fr",
+    "url_booknode": "https://booknode.fr"
+    
+}
+
+
+###EDITION####
+
+###récupérer la liste des editions
+GET http://localhost:3000/editions
+
+###récupérer une édition
+GET http://localhost:3000/editions/3
+
+###ajout/modif d'une édition
+PUT http://localhost:3000/admin/editions
+Content-Type: application/json
+
+{
+    "name": "Le Loup Marron"
+}
+
+###suppression d'une édition
+DELETE http://localhost:3000/admin/editions/4
+
+
+###ajout/modif edition
+PUT http://localhost:3000/admin/editions/5
+Content-Type: application/json
+
+{
+    "name": "Le Loup Fluo",
+    "picture_file": "hobbit.gif"
+}
+
+
+
+###TAG###
+
+###la liste des tags
+GET http://localhost:3000/tags
+
+###détail d'un tag
+GET http://localhost:3000/admin/tags/1
+
+
+###Ajout/modif d'un tag
+PUT http://localhost:3000/admin/tags
+Content-Type: application/json
+
+{
+    "label": "POG",
+    "picture_file":"pog.gif"
+}
+
+###ajout/modif tag
+PUT http://localhost:3000/admin/tags/4
+Content-Type: application/json
+
+{
+    "label":"bisounours"  ,
+    "picture_file": "bisounours.jpg"
+}
+
+####COLLECTION
+
+###la liste des collections
+GET http://localhost:3000/admin/collections
+
+
+###ajout/modif collection
+PUT http://localhost:3000/admin/collections/5
+Content-Type: application/json
+
+{
+    "label": "Le chocolat",
+    "picture_file": "huuummm.gif"
+}
+
+
+####UTILISATEUR
+
+###la liste des utilisateurs
+GET http://localhost:3000/admin/users
+
+###ajout/modif utilisateur
+PUT http://localhost:3000/account
+Content-Type: application/json
+
+{
+    "lastname": "puce",
+    "firstname": "Soldier of Love",
+    "email": "soldierofloe@gmail.com" ,
+    "alias": "puce9685",
+    "role": "Auteur" ,
+    "password": "soldier" ,
+    "facebook": "https://www.facebook.com/sadesoha",
+    "instagram": "https://www.instagram.com/sadesoha",
+    "twitter": "https://twitter.com/sadesoha",
+    "linkedin":"https://www.linkedin.com/sadesoha" ,
+    "biography": "Where can I get some? There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour..",
+    "optin": "true" , 
+    "isBan": "false",
+    "isActive": "true",
+    "newPassword": "false"
+}
+
+####ADDRESS
+GET http://localhost:3000/admin/address/1
+

@@ -1,0 +1,1 @@
+{"version":3,"sources":["stylesCG.scss"],"names":[],"mappings":"AAAA,UACE,UAAW,CACX,eAAgB,CAEhB,yBAJF,UAKI,SAAU,CACV,WAAY,CAEf","file":"16.5063b4c6.chunk.css","sourcesContent":[".cg-setup {\n  width: 100%;\n  text-align: left;\n  \n  @media (min-width: 900px) {\n    width: 50%;\n    margin: auto;\n  }\n}"]}

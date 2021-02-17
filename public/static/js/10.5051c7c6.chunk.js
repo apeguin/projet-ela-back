@@ -1,0 +1,2 @@
+(this.webpackJsonptest=this.webpackJsonptest||[]).push([[10],{140:function(e,t,n){},152:function(e,t,n){"use strict";n.r(t);var a=n(0),s=n.n(a);n(140);t.default=function(){return s.a.createElement("div",{className:"admin-comments"},s.a.createElement("div",{className:"admin-title"},s.a.createElement("h2",null,"Commentaires"),s.a.createElement("p",null,"En cours de construction")))}}}]);
+//# sourceMappingURL=10.5051c7c6.chunk.js.map

@@ -1,0 +1,1 @@
+{"version":3,"sources":["stylesAdminCollections.scss"],"names":[],"mappings":"AAAA,kBACE,iBAAkB,CAClB,cAAe,CACf,aAAc","file":"8.6e05e5b0.chunk.css","sourcesContent":[".admin-collection {\n  text-align: center;\n  min-width: 80vw;\n  margin: 0 auto;\n}\n"]}

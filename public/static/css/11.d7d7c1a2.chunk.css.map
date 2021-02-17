@@ -1,0 +1,1 @@
+{"version":3,"sources":["stylesAdminHomepage.scss"],"names":[],"mappings":"AAAA,gBACE,iBAAkB,CAClB,cAAe,CAEf,yBAJF,gBAKI,eAAgB,CAEnB","file":"11.d7d7c1a2.chunk.css","sourcesContent":[".admin-homepage {\n  text-align: center;\n  min-width: 80vw;\n\n  @media (max-width: 900px) {\n    margin-top: 3rem;\n  }\n}\n"]}

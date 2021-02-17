@@ -1,0 +1,1 @@
+{"version":3,"sources":["stylesAdminEvents.scss"],"names":[],"mappings":"AAAA,cACE,iBAAkB,CAClB,cAAe,CACf,aAAc","file":"11.7bd20988.chunk.css","sourcesContent":[".admin-events {\n  text-align: center;\n  min-width: 80vw;\n  margin: 0 auto;\n}\n"]}
